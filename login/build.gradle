@@ -1,0 +1,17 @@
+project.configurations {
+    provided
+}
+
+dependencies {
+    // available when compiling, but not when running
+    provided 'com.google.dagger:dagger-compiler:2.5'
+
+    // available when compiling, and when running
+    compile 'com.google.dagger:dagger:2.5'
+    compile 'org.slf4j:slf4j-api:1.7.+'
+    compile 'io.netty:netty-transport:4.1.+'
+    compile 'io.netty:netty-handler:4.1.+'
+
+    // available when running only
+    runtime 'ch.qos.logback:logback-classic:1.1.+'
+}
