@@ -11,6 +11,9 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.+'
     compile 'io.netty:netty-transport:4.1.+'
     compile 'io.netty:netty-handler:4.1.+'
+    compile 'org.mapdb:mapdb:3.0.0-RC2'
+    compile 'com.googlecode.cqengine:cqengine:2.6.+'
+    compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.8.0.rc2'
 
     // available when running only
     runtime 'ch.qos.logback:logback-classic:1.1.+'
