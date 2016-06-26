@@ -1,3 +1,4 @@
 rootProject.name = 'squad'
 
 include 'login'
+include 'inject'
